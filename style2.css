@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Montserrat', helvetica, sans-serif;
+}
+
+.topNav {
+    background-color: #133D6D;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.topNavcontainer {
+    width: 95%;
+    padding: 10px 1.5rem 0 5rem;
+}
+
+.topNavcontainer nav ul i, .topNavcontainer nav ul span {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+
+.topNavcontainer nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topNavcontainer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.topmenu {
+    float: right;
+    padding-left: 10px;
+}
+
+#ic {
+    float: right;
+    padding-left: 15px;
+}
+
+@media (max-width: 600px) {
+    .topNavcontainer {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .topmenu {
+        float: none;
+        display: block;
+    }
+
+    #ic {
+        float: none;
+    }
+}
+
+/* Top Nav menu styling ends Here */
+
+/* Second Nav styling starts here */
+
+.head {
+    margin-top: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar a img {
+    width: 200px;
+    height: auto;
+    margin-right: 23rem;
+    margin-left: 2rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 1rem;
+}
+
+.nav-item a {
+    color: red;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .navbar a img {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+
+    .nav-item {
+        text-align: center;
+        
+    }
+
+    .nav-item a {
+        text-transform: initial;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* Second Nav styling Ends here */ 
+
+
+}

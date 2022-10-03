@@ -1,0 +1,938 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Montserrat', helvetica, sans-serif;
+}
+
+.topNav {
+    background-color: #133D6D;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.topNavcontainer {
+    width: 95%;
+    padding: 10px 1.5rem 0 5rem;
+}
+
+.topNavcontainer nav ul i, .topNavcontainer nav ul span {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+
+.topNavcontainer nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topNavcontainer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.topmenu {
+    float: right;
+    padding-left: 10px;
+}
+
+#ic {
+    float: right;
+    padding-left: 15px;
+}
+
+@media (max-width: 600px) {
+    .topNavcontainer {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .topmenu {
+        float: none;
+        display: block;
+    }
+
+    #ic {
+        float: none;
+    }
+}
+
+/* Top Nav menu styling ends Here */
+
+/* Second Nav styling starts here */
+
+.head {
+    margin-top: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar a img {
+    width: 200px;
+    height: auto;
+    margin-right: 23rem;
+    margin-left: 2rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 1rem;
+}
+
+.nav-item a {
+    color: red;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .navbar a img {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+
+    .nav-item {
+        text-align: center;
+        
+    }
+
+    .nav-item a {
+        text-transform: initial;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* Second Nav styling Ends here */ 
+
+/* Banner styling starts here */
+
+.banner {
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    font-family: 'Roboto', 'Montserrat', helvetica;
+}
+
+.banner h2 {
+    width: 50%;
+    font-weight: 800;
+    color: #fecb00;
+    font-size: 4rem;
+    padding: 6rem 0 0 3rem;
+    line-height: 80px;
+    text-shadow: 0px 0px 5px rgb(46, 44, 44);
+}
+
+.banner p {
+    color: white;
+    padding: 2rem 0 0 3rem;
+    width: 40%;
+    font-size: 1.3rem;
+    text-shadow: 0px 0px 5px rgb(46, 44, 44);
+}
+
+.banner button {
+    background: #fecb00;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem 0 5rem 3rem;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+    .banner {
+        background-image: url("img/images\ 4.jpg");
+    }
+
+    .banner h2 {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 40px;
+        padding: 2rem 2rem 5px 4rem;
+        text-align: center;
+    }
+
+    .banner p {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0 2rem 0 2rem;
+        text-align: center;
+    }
+
+    .banner button {
+        margin-left: 10rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 1rem;
+        margin: 0.3rem 0 2rem 9rem;
+    }
+}
+
+/* Banner Section styling ends here */
+
+/* Tags section styling starts here */
+
+.servicetag {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 0.8rem;
+    width: 80%;
+    margin: 1rem 0 4rem 1.2rem;
+    font-family: 'Montserrat', helvetica;
+}
+
+.tags {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgb(105, 104, 104);
+    padding-bottom: 20px;
+    background: #133D6D;
+}
+
+.tags img {
+    width: 430px;
+}
+
+.tags h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+}
+
+.tags p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.tags a {
+    text-decoration: none;
+    color: #133D6D;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .servicetag {
+        display: block;
+        width: 93%;
+    }
+
+    .tags {
+        margin-top: 2rem;
+    }
+
+    .tags img {
+        width: 100%;
+    }
+}
+
+/* Tags section styling ends here */
+
+/* Who we are section styling starts here */
+
+.middletag {
+    display: flex;
+    background-image: linear-gradient(rgba(2, 6, 22, 0.7),rgba(12, 33, 114, 0.7)), url("img/images\ 10.jpg");
+    background-size: cover;
+    margin: 3rem 0 2rem 0;
+    box-shadow: 0px 0px 10px rgb(105, 104, 104);
+}
+
+.middletag img {
+    width: 700px;
+}
+
+.middletagtext {
+    margin: 2rem 2rem 0 2rem;
+    color: white;
+    text-align: justify;
+}
+
+.middletagtext h3 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.middletagtext p {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+}
+
+.middletag button {
+    background-color: #fecb00;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px rgb(15, 14, 14);
+}
+
+.middletag button a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4rem 3rem;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+    .middletagtext {
+       
+    }
+
+    .middletag img {
+        display: none;
+    }
+
+    .middletagtext h3 {
+        text-align: center;
+    }
+
+    .middletag button {
+        margin-left: 5rem;
+    }
+
+    .middletagtext p {
+        font-size: 17px;
+    }
+}
+
+/* Who we are section styling ends here */
+
+
+/* What we do section styling starts here */
+
+.whatwedo {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom:5rem;
+    background-color: #133D6D;
+}
+
+.whatwedo h3 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
+.ourservice img {
+    position: absolute;
+    margin: 13rem 0 1rem 15rem;
+}
+
+.ourservice .s2 {
+    position: absolute;
+    margin: 7rem 0 1rem 26rem;
+}
+
+.serviceContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    margin: 1rem 4rem 0 2rem;
+}
+
+.ourservice {
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(105, 104, 104);
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.serviceContainer h5 {
+    background-color: #fecb00;
+    color: black;
+    font-family: 'Montserrat', Helvetica;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ourservice span {
+    font-size: 18px;
+    padding: 2rem 2rem 2rem 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.serviceContainer2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    margin: 1rem 4rem 0 2rem;
+    padding-bottom: 3rem;
+}
+
+.serviceContainer2 h5 {
+    background-color: #fecb00;
+    color: black;
+    font-family: 'Montserrat', Helvetica;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ourservice2 {
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(105, 104, 104);
+    width: 100%;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.ourservice2 span {
+    font-size: 18px;
+    padding: 1rem 1rem 0 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.ourservice2 p {
+    font-size: 18px;
+    padding: 1rem 2rem 0 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ourservice2 img {
+    position: absolute;
+    margin: 1rem 0 1rem 27rem;
+}
+
+@media (max-width:600px) {
+    .serviceContainer, .serviceContainer2 {
+        display: block;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .ourservice, .ourservice2 {
+        background-repeat: no-repeat;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgb(105, 104, 104);
+        width: 100%;
+        padding-bottom: 1rem;
+        margin-top: 3rem;
+    }  
+
+    .whatwedo h3 {
+        text-align: center;
+        padding: 2rem 0 0 0;
+        font-size: 30px;
+        font-weight: 700;
+        color: #133D6D;
+    }
+
+    .ourservice img, .s2 {
+        display: none;
+    }
+
+    .ourservice span {
+        font-size: 14px;
+        padding: 2rem 2rem 2rem 2rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+    }
+
+    .ourservice2 p {
+        font-size: 17px;
+        line-height: auto;
+    }
+}
+
+@media (max-width:1300px) {
+    .ourservice img, .s2 {
+        display: none;
+    }
+
+    .ourservice span {
+        font-size: 13px;
+        padding: 2rem 2rem 2rem 2rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+    }
+
+    .ourservice2 p {
+        font-size: 15px;
+        line-height: auto;
+    }
+}
+
+/* What we do section styling ends here */
+
+
+/* Our Partners section styling starts here */
+.partners {
+    background-color: rgb(228, 226, 226);
+    padding-bottom: 4rem;
+}
+
+.partners h2 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #133D6D;
+}
+
+.partners .partnersimg {
+    margin-left: 15rem;
+}
+
+.partners img {
+    margin-right: 3rem;
+}
+
+@media (max-width:600px) {
+    .partners h2 {
+        font-size: 30px;
+    }
+
+    .partners .partnersimg {
+        margin-left: 6rem;
+    }
+
+    .partners img {
+        margin-right: 1rem;
+        justify-content: center;
+        width: 120px;
+    }
+
+    .partners .pear {
+        width: 300px;
+        margin-top: 1rem;
+    }
+}
+
+/*Our Partners section styling ends here */
+
+/*Welcome section styling ends here */
+
+.welcome {
+    background: linear-gradient(rgba(2, 6, 22, 0.7),rgba(4, 9, 29, 0.7)), url("img/c10.jpeg");
+    background-size: cover;
+    margin-top: 1rem;
+}
+
+.welcome h3 {
+    padding: 15rem;
+    text-align: center;
+    width: ;
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 50px;
+    border-bottom: 20px solid #fecb00;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .welcome h3 {
+        width: 100%;
+        padding: 5rem 2rem 5rem 2rem;
+        font-size: 20px;
+    }
+}
+
+/*Welcome section styling ends here */
+
+
+/*Footer section styling starts here */
+
+.footer {
+    display: flex;
+    background: #133D6D;
+    padding: 2rem 0 2rem 3rem;
+}
+
+.footer img {
+    width: 400px;
+    height: 150px;
+    background: white;
+    padding: 2rem;
+    margin-top: 2px;
+    margin-right: 2rem;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.quicklinks nav ul {
+    list-style: none;
+    color: white;
+    margin-left: 5rem;
+}
+
+.quicklinks nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+.copyright {
+    background: #fecb00;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.copyright p a {
+    color: #133D6D;
+    text-decoration: none;
+}
+
+.copyright p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+@media (max-width:600px) {
+    .footer img {
+        width: 150px;
+        height: 70px;
+        padding: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .footer {
+        display: flex;
+        background: #133D6D;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .footer h4 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    .quicklinks {
+        display: none;
+    }
+}
+
+/*Footer section styling ends here */
+
+
+/* About us styling starts here */
+.header {
+    background: url("img/image12.jpg");
+    background-size: cover;
+    padding: 10rem;
+    background-size: cover;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header p {
+    color: white;
+    font-size: 18px;
+    width: 50%;
+}
+
+.abtmiddle {
+    background: url("img/image13.jpg");
+}
+
+.abtmiddle h2 {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-weight: 700;
+    color: teal;
+    font-size: 40px;
+}
+
+.abtmiddle p {
+    text-align: center !important;
+    padding: 0 10rem 3rem 10rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #505050;
+    font-family: 'Roboto', 'montserat' sans-serif, ;
+}
+
+.mission {
+    background: linear-gradient(rgba(26, 117, 179, 0.7),rgba(26, 117, 179, 0.7)), url("img/image13.jpg");
+    padding: 2rem 5rem 2rem 5rem;
+    background-size: cover;
+}
+
+.topmission {
+    display: flex;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.topmission img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.topmission .msnwords {
+    background: linear-gradient(rgba(9, 35, 138, 0.7),rgba(4, 9, 29, 0.7)), url("img/image11.jpg");
+    margin: 0 1.5rem 0 0 ;
+    background-size: cover;
+    padding: 7rem;
+}
+
+.topmission .msnwords2 {
+    background: linear-gradient(rgba(105, 83, 8, 0.7),rgba(4, 9, 29, 0.7)), url("img/images\ 7.jpg");
+    margin: 0 0 0 1.5rem ;
+    background-size: cover;
+    padding: 7rem;
+    
+}
+
+.msnwords h3, .msnwords2 h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.msnwords p, .msnwords2 p {
+    color: white;
+}
+
+.team {
+    padding: 0 4rem 0 5rem;
+}
+
+.team h2 {
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.teamcontainer {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.teamdesc {
+    margin-right: 2rem;
+    box-shadow: 0px 0px 5px  rgb(153, 148, 148);
+    width: 50%;
+    align-items: center;
+    background: white;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 5px;
+}
+
+.teamdesc img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fecb00;
+    margin-left: 3rem;
+}
+
+.teamdesc h4 {
+    color: #133D6D;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.teamdesc h5 {
+    text-align: center;
+    font-size: 15px;
+    color: #505050;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.teamdesc p {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.doyou {
+    background: linear-gradient(rgba(32, 31, 28, 0.685),rgba(22, 23, 27, 0.657)), url("img/image13.jpg");
+    padding: 5rem 0;
+    background-size: cover;
+}
+
+.doyouitems {
+    width: 60%;
+    background: #303030;
+    margin-left: 15rem;
+    padding: 4rem 3.5rem 3rem 3.5rem;
+}
+
+.doyouitems h2 {
+    color: white;
+    text-align: center;
+}
+
+.doyouitems p {
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.doyouitems button {
+    margin: 1rem 0 1rem 15rem;
+    padding: 1rem 2rem;
+    font-size: 23px;
+    background: #fecb00;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.beforefoot {
+    display: flex;
+    padding: 4rem 0 2rem 0;
+    background: ;
+}
+
+.beforefoot img {
+    width: 300px;
+    height: 90px;
+    margin: 0 3rem;
+}
+
+.beforefootitem {
+    margin-right: 3rem;
+}
+
+.beforefootitem h6 {
+    font-weight: 500;
+    color: #505050;
+}
+
+.beforefootitem p {
+
+}
+
+.beforefootitem li {
+    list-style: none;
+}
+
+.beforefootitem li a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+@media (max-width:600px) {
+    .header {
+        padding: 5rem 5rem 5rem 5rem
+    }
+
+    .header h1 {
+        text-align: center;
+    }
+
+    .header p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .abtmiddle p {
+        text-align: justify !important;
+        padding: 0 2rem 1rem 2rem;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .topmission {
+        display: block;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .topmission .msnwords, .topmission .msnwords2 {
+        margin: 0 0.5rem 0 0 ;
+        padding: 2rem;
+    }
+
+    .topmission img {
+        width: 411px;
+        border-radius: 0;
+    }
+
+    .teamcontainer {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .teamdesc {
+        margin-right: 2rem;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .doyouitems {
+        width: 90%;
+        margin-left: 1.5rem;
+        padding: 4rem 3.5rem 3rem 3.5rem;
+    }
+
+    .doyouitems button {
+        margin: 1rem 0 1rem 3rem;
+        padding: 1rem 2rem;
+    }
+
+    .beforefoot {
+        display: block;
+        margin-left: 2rem;
+    }
+
+    .beforefoot img {
+        margin-bottom: 2rem;
+    }
+
+    .beforefootitem li a {
+        text-decoration: none;
+        color: black;
+        text-align: left;
+    }
+
+    .mission {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+/* About us styling ends here */
+
+/* Contact page styling starts here */
+
+
+/* Contact page styling ends here */
+
+
